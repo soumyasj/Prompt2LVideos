@@ -1,6 +1,6 @@
 # Video Retrieval Toolkit
 
-![Video Retrieval Toolkit Logo](https://example.com/logo.png)
+![task image](images/task.png)
 
 Welcome to the Long-range Video Retrieval repository! In this repository we provide the code to extract OCR tokens from frames of videos using easyocr, code to obtain transcripts of videos using opensourced speech-to-text module from pytorch called silero, and code to compute TF-IDF-based Video Retrieval system to retrieve videos based OCR tokens and transcripts.
 
