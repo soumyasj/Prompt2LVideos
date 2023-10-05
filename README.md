@@ -30,3 +30,12 @@ To get started with the long-range video understanding and retrieval , follow th
 1. **Clone the Repository:** Clone this repository to your local machine using `https://github.com/soumyasj/VideoRetrievalIDP.git `.
 
 2. **Install Dependencies:** Install the required dependencies by running `pip install -r requirements.txt`.
+
+3. **Get OCR tokens:** Obtain OCR tokens of the frames of videos by running `/utils/python get_ocrs.py`.
+
+4. **Get Transcripts:** Obtain Transcripts of the videos by running `/utils/python get_transcripts.py`.
+
+5. **Compute TF-IDF matrics:** Obtain matrices that are needed to perform TF-IDF-based retrieval by running `python make_if_idf_ret.py`.
+
+6. **Evaluation:** Evaluate the retrieval by TF-IDF-matrices by running `python evaluate.py`.
+
