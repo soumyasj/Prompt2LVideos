@@ -1,26 +1,32 @@
 # Prompt2LVideos: Exploring Prompts for Understanding Long-Form Multimodal Videos
 
-![task image](images/task.png)
+![task image](images/intro_motivation_img.png)
 
-Welcome to the Long-range Video Retrieval repository! In this repository we provide the code to extract OCR tokens from frames of videos using easyocr, code to obtain transcripts of videos using opensourced speech-to-text module from pytorch called silero, and code to compute TF-IDF-based Video Retrieval system to retrieve videos based on OCR tokens and transcripts.
+Welcome to the Prompt2LVideos repository! This cutting-edge toolkit is designed to enhance the understanding and retrieval of long-form videos in educational and news domains by leveraging advanced techniques in Optical Character Recognition (OCR) and Automatic Speech Recognition (ASR). This repository provides the tools and code necessary to extract meaningful insights from videos using state-of-the-art technologies and large language models (LLMs).
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Getting Started](#getting-started)
+- [Disclaimer](#disclaimer)
 
 ## Introduction
 
-In today's digital media landscape, understanding the importance of lengthy videos, especially in education and news, is crucial due to their significant societal influence. This study explores the use of multimodal cues such as OCR tokens and transcripts for tasks like video retrieval in long videos. Additionally, it investigates how large language models like ChatGPT and Bard can enhance insights through various prompting strategies, shedding light on the potential of prompts with unlabelled data in understanding lengthy videos.
+Understanding lengthy videos, especially in educational and news contexts, is critical due to their societal influence. Traditional video-text fusion methods face challenges with long-form videos, which can span from minutes to hours, necessitating more annotators with subject expertise. This project explores the use of OCR and ASR to automatically generate textual content from videos, combined with LLMs like ChatGPT and Bard to derive insightful prompts. This approach aims to facilitate comprehensive video comprehension and retrieval.
+
+### Key Features
+
+- **Multimodal Cues:** Utilizes both OCR tokens and ASR transcripts to extract comprehensive content from videos.
+- **Large Language Models:** Leverages LLMs to enhance understanding and generate high-quality video-text data.
+- **Edu-News Dataset:** A curated dataset comprising long-form lectures and news videos specifically designed for this study.
+- **Prompt Engineering:** Explores prompt engineering techniques to improve the comprehension of long-form multimodal video datasets.
 
 ## Dataset
 
-- **Link to the videos** We choose videos from two video categories: News videos and Educational videos.
-
-- **Precomputed OCR tokens** Our toolkit includes efficient indexing methods to speed up video retrieval tasks, ensuring low latency and high scalability.
-
-- **Precomputed transcripts** A simple and intuitive API makes it easy to integrate video retrieval functionality into your applications or research projects.
+- **Link to the videos**: We use videos from two categories: News and Educational videos.
+- **Precomputed OCR tokens**: Efficient indexing methods to speed up video retrieval tasks.
+- **Precomputed transcripts**: Simple and intuitive API for easy integration into your applications or research projects.
 
 [Dataset Link](https://drive.google.com/file/d/1fXZKAJEW2CT0ufkK6v-t5QDLX42BCjV8/view?usp=sharing)
 
@@ -38,4 +44,8 @@ To get started with long-range video understanding and retrieval, follow these s
 
 5. **Compute TF-IDF matrices:** Obtain matrices that are needed to perform TF-IDF-based retrieval by running `python make_if_idf_ret.py`.
 
-6. **Evaluation:** Evaluate the retrieval by TF-IDF-matrices by running `python evaluate.py`.
+6. **Evaluation:** Evaluate the retrieval by TF-IDF matrices by running `python evaluate.py`.
+
+## Disclaimer
+
+All videos are sourced from YouTube CNN news videos and NPTEL for educational videos and belong to their respective creators. We don't intend any copyright infringement. Downloading the videos is only for the purpose of education and not for anything else. This page was built using the Academic Project Page Template, which was adopted from the Nerfies project page.
