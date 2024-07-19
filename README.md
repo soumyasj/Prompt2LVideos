@@ -2,7 +2,7 @@
 
 ![task image](images/intro_motivation_img.png)
 
-Welcome to the Prompt2LVideos repository! This cutting-edge toolkit is designed to enhance the understanding and retrieval of long-form videos in educational and news domains by leveraging advanced techniques in Optical Character Recognition (OCR) and Automatic Speech Recognition (ASR). This repository provides the tools and code necessary to extract meaningful insights from videos using state-of-the-art technologies and large language models (LLMs).
+Welcome to the Prompt2LVideos repository! This repository is designed to enhance the understanding and retrieval of long-form videos in educational and news domains by leveraging advanced techniques in Optical Character Recognition (OCR) and Automatic Speech Recognition (ASR). This repository provides the link to the dataset and code necessary to extract meaningful insights from videos using existing methods.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to the Prompt2LVideos repository! This cutting-edge toolkit is designed 
 
 ## Introduction
 
-Understanding lengthy videos, especially in educational and news contexts, is critical due to their societal influence. Traditional video-text fusion methods face challenges with long-form videos, which can span from minutes to hours, necessitating more annotators with subject expertise. This project explores the use of OCR and ASR to automatically generate textual content from videos, combined with LLMs like ChatGPT and Bard to derive insightful prompts. This approach aims to facilitate comprehensive video comprehension and retrieval.
+Understanding lengthy videos, especially in educational and news contexts, is critical due to their societal influence. Traditional video-text fusion methods face challenges with long-form videos, which can span from minutes to hours, necessitating more annotators with subject expertise. This project explores the use of OCR and ASR to automatically generate textual content from videos, combined with LLMs like ChatGPT to derive insightful prompts. This approach aims to facilitate comprehensive video comprehension and retrieval.
 
 ### Key Features
 
